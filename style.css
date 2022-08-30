@@ -1,0 +1,101 @@
+#main {
+  max-width: 1280px;
+  max-height: 100%;
+  margin: 30px auto;
+  padding: 10px;
+  font-size: 10px
+  border-radius: 5px;
+  
+}
+#title {
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  border-bottom: 5px solid;
+  margin-bottom: 15px;
+}
+
+
+
+header {
+ 
+  color: rgb(247, 239, 239);
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 20px;
+  font-weight:bold;
+}
+h2{
+  text-align: center;
+  color: white;
+  
+}
+
+#main > p {
+  text-align: center;
+}
+
+a:visited {
+  color: #6309f3;
+}
+#img-div {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+ 
+}
+
+#tribute-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#tribute-info > h3 {
+  text-align: center;
+  background-color: rgb(203, 176, 227);
+}
+
+#tribute-info > ul li {
+  margin-bottom: 10px;
+  line-height: 30px;
+  background-color: rgb(214, 193, 232);
+}
+h5 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size:15px;
+}
+i{
+  color: white;
+  font-size:20px;
+  font-weight: bold;
+
+}
+#songs{
+  margin: 1% 1% 1% 2%;
+  border-style: solid;
+  border-color: aquamarine;
+  border-width: 5px;
+}
+
+footer {
+  color: white;
+  max-width: 850px;
+  margin: auto;
+  padding: 20px 15px;
+  margin-bottom: 70px;
+  text-align: right;
+  font-style: italic;
+}
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96t1kUq0a3BuagBAn-MdZp7LAdUK9F-ogwg&usqp=CAU');
+}
