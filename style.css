@@ -2,56 +2,63 @@
   max-width: 1280px;
   max-height: 100%;
   margin: 30px auto;
-  padding: 10px;
-  font-size: 10px
+  padding: 15px;
+  font-size: 17px;
   border-radius: 5px;
-  
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
 }
+
 #title {
   text-align: center;
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 4em;
   font-weight: bold;
   border-bottom: 5px solid;
   margin-bottom: 15px;
 }
 
-
-
 header {
- 
   color: rgb(247, 239, 239);
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-size: 20px;
-  font-weight:bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
 }
-h2{
+h2 {
   text-align: center;
   color: white;
-  
 }
 
 #main > p {
   text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-in-line-end: 0px;
 }
 
 a:visited {
   color: #6309f3;
 }
 #img-div {
-  max-width: 500px;
+  max-width: 550px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 45px;
   color: white;
 }
 
 #image {
   display: block;
   max-width: 100%;
- 
 }
 
 #tribute-info {
@@ -69,18 +76,16 @@ a:visited {
   background-color: rgb(214, 193, 232);
 }
 h5 {
+  color: white;
   text-align: center;
-  color: white;
-  font-weight: bold;
-  font-size:15px;
 }
-i{
+i {
   color: white;
-  font-size:20px;
+  font-size: 20px;
   font-weight: bold;
-
+  text-align: center;
 }
-#songs{
+#songs {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -98,12 +103,6 @@ footer {
   text-align: right;
   font-style: italic;
 }
-body{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96t1kUq0a3BuagBAn-MdZp7LAdUK9F-ogwg&usqp=CAU');
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96t1kUq0a3BuagBAn-MdZp7LAdUK9F-ogwg&usqp=CAU");
 }
-
-
-
-
-
-
