@@ -81,7 +81,9 @@ i{
 
 }
 #songs{
-  margin: 1% 1% 1% 2%;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
   border-style: solid;
   border-color: aquamarine;
   border-width: 5px;
